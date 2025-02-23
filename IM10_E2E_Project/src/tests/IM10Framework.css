@@ -1,0 +1,38 @@
+project/
+│
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── example/
+│       │           ├── app/
+│       │           └── util/
+│       └── resources/
+│
+├── tests/
+│   ├── resources/
+│   │   └── test_data/
+│   │       ├── AddUsers.xlsx
+│   │       └── AddPlayerDetails.xlsx
+│   ├── java/
+│   │   └── com/
+│   │       └── example/
+│   │           ├── test/
+│   │           │   ├── cases/
+│   │           │   │   └── IM10SuperAdminTests.java
+│   │           │   └── util/
+│   │           │       ├── ConfigFileRead.java
+│   │           │       ├── ExcelReportGenerator.java
+│   │           │       ├── TestDataReader.java
+│   │           │       └── WaitUtility.java
+│   │           ├── pages/
+│   │           │   ├── IM10LoginPage.java
+│   │           │   └── IM10SuperAdmin.java
+│   │           └── testcase/
+│   │               └── TestBase.java
+│   └── reports/
+│
+├── pom.xml
+├── README.md
+└── ...
+

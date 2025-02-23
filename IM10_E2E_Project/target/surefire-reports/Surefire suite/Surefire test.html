@@ -1,0 +1,245 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>33/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 26 17:21:07 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>767 seconds (767709 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testEMAAddPlayerEndorse()'><b>testEMAAddPlayerEndorse</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>18</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testIM10SADeleteLogOut()'><b>testIM10SADeleteLogOut</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>4</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testEMADeletePlayerEndorsement()'><b>testEMADeletePlayerEndorsement</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>6</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testDeleteCampaign()'><b>testDeleteCampaign</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>6</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testSALogin()'><b>testSALogin</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>2</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testEMALogOut()'><b>testEMALogOut</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>4</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testEMALogin()'><b>testEMALogin</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>2</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testAddListing()'><b>testAddListing</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>63</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testCaAddContent()'><b>testCaAddContent</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>46</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testIM10SALogin()'><b>testIM10SALogin</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>2</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testCALogin()'><b>testCALogin</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>2</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testAddCampaign()'><b>testAddCampaign</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>42</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testLogOutMarketingCampaigns()'><b>testLogOutMarketingCampaigns</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>10</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testCaLogOutAfterAdd()'><b>testCaLogOutAfterAdd</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>4</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testIM10SALogOut()'><b>testIM10SALogOut</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>4</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testSPADeleteListingList()'><b>testSPADeleteListingList</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>17</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testSaLogOut()'><b>testSaLogOut</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>9</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testQADisapproveContent()'><b>testQADisapproveContent</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>14</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testSaUserPlayer()'><b>testSaUserPlayer</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>156</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testMarketingCampaignsLogin()'><b>testMarketingCampaignsLogin</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>2</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testSaDeleteMultipleUsers()'><b>testSaDeleteMultipleUsers</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>70</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testSPALogOutAfterDelete()'><b>testSPALogOutAfterDelete</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>4</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testQALogOutAfterApproved()'><b>testQALogOutAfterApproved</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>11</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testSPALogOut()'><b>testSPALogOut</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>4</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testIM10SAAddPlayer()'><b>testIM10SAAddPlayer</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>36</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testIM10SADeletePlayer()'><b>testIM10SADeletePlayer</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>10</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testQAApproveContent()'><b>testQAApproveContent</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>16</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testQALogOutAfterDisapproved()'><b>testQALogOutAfterDisapproved</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>9</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testSaAddUser()'><b>testSaAddUser</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>140</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testSaUPLogOut()'><b>testSaUPLogOut</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>9</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testCaDeleteContent()'><b>testCaDeleteContent</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>17</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testCaLogOut()'><b>testCaLogOut</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>4</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+<tr>
+<td title='test_cases.IM10E2ETest.testSPALogin()'><b>testSPALogin</b><br>Test class: test_cases.IM10E2ETest</td>
+<td></td>
+<td>2</td>
+<td>test_cases.IM10E2ETest@4386f16</td></tr>
+</table><p>
+</body>
+</html>

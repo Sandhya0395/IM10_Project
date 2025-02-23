@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="test_cases">
+        <classes>
+            <class name="test_cases.IM10E2ETest">
+            <methods>
+                <include name="testSALogin"/>
+                <exclude name="testSaAddUser"/>
+                <exclude name="testSaLogOut"/>
+                <exclude name="testIM10SALogin"/>
+                <exclude name="testIM10SAAddPlayer"/>
+                <exclude name="testIM10SALogOut"/>
+                <exclude name="testSaUserPlayer"/>
+                <exclude name="testSaUPLogOut"/>
+                <exclude name="testCALogin"/>
+                <exclude name="testCaAddContent"/>
+                <exclude name="testCaLogOutAfterAdd"/>
+                <exclude name="testQAApproveContent"/>
+                <exclude name="testQALogOutAfterApproved"/>
+                <exclude name="testMarketingCampaignsLogin"/>
+                <exclude name="testAddCampaign"/>
+                <exclude name="testCaDeleteCampaign"/>
+                <exclude name="testLogOutMarketingCampaigns"/>
+                <exclude name="testQADisapproveContent"/>
+                <exclude name="testQALogOutAfterDisapproved"/>
+                <exclude name="testCaDeleteContent"/>
+                <exclude name="testSPALogin"/>
+                <exclude name="testAddListing"/>
+                <exclude name="testSPALogOut"/>
+                <exclude name="testIM10SADeletePlayer"/>
+                <exclude name="testEMALogin"/>
+                <exclude name="testEMAAddPlayerEndorse"/>
+                <exclude name="testEMADeletePlayerEndorsement"/>
+                <exclude name="testEMALogOut"/>
+                <exclude name="testSaDeleteMultipleUsers"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
