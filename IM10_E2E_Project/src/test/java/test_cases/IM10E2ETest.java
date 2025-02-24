@@ -109,7 +109,7 @@ public class IM10E2ETest {
         ChromeOptions options = new ChromeOptions();
         // options.setExperimentalOption("debuggerAddress", "127.0.0.1:9222"); // Initiate chrome driver on port 9222
 
-        options.addArguments("--incognito");
+        options.addArguments("--headless");
         //options.addArguments("--headless"); // Uncomment to run tests in headless mode
         options.addArguments("--disable-gpu"); // Corrected argument for disabling GPU
 

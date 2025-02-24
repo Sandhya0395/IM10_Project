@@ -1,28 +1,28 @@
-D:\Automation Testing\PageObjectModel\src\test\java\ExcelResults\ExcelReportGenerator.java
-D:\Automation Testing\PageObjectModel\src\test\java\pages\ConfigFileRead.java
-D:\Automation Testing\PageObjectModel\src\test\java\pages\EmailSender.java
-D:\Automation Testing\PageObjectModel\src\test\java\pages\GFG.java
-D:\Automation Testing\PageObjectModel\src\test\java\pages\IM10ContentAdmin.java
-D:\Automation Testing\PageObjectModel\src\test\java\pages\IM10EndorseManagerAdmin.java
-D:\Automation Testing\PageObjectModel\src\test\java\pages\IM10LoginPage.java
-D:\Automation Testing\PageObjectModel\src\test\java\pages\IM10MarketingCampaigns.java
-D:\Automation Testing\PageObjectModel\src\test\java\pages\IM10QualityAssurance.java
-D:\Automation Testing\PageObjectModel\src\test\java\pages\IM10SalesAdmin.java
-D:\Automation Testing\PageObjectModel\src\test\java\pages\IM10SuperAdmin.java
-D:\Automation Testing\PageObjectModel\src\test\java\pages\LighthouseUtility.java
-D:\Automation Testing\PageObjectModel\src\test\java\pages\LoginUtility.java
-D:\Automation Testing\PageObjectModel\src\test\java\pages\LogoutUtil.java
-D:\Automation Testing\PageObjectModel\src\test\java\pages\SalesPersonAdmin.java
-D:\Automation Testing\PageObjectModel\src\test\java\pages\SendEmail.java
-D:\Automation Testing\PageObjectModel\src\test\java\pages\WaitUtility.java
-D:\Automation Testing\PageObjectModel\src\test\java\test_cases\IM10E2ETest.java
-D:\Automation Testing\PageObjectModel\src\test\java\test_cases\TestSuite.java
-D:\Automation Testing\PageObjectModel\src\test\java\TestData\ExcelRead.java
-D:\Automation Testing\PageObjectModel\src\test\java\TestData\ExcelReader.java
-D:\Automation Testing\PageObjectModel\src\test\java\TestData\IM10CATestDataReader.java
-D:\Automation Testing\PageObjectModel\src\test\java\TestData\IM10EMATestDataReader.java
-D:\Automation Testing\PageObjectModel\src\test\java\TestData\IM10MarketingCampaignsDataReader.java
-D:\Automation Testing\PageObjectModel\src\test\java\TestData\IM10SalesPersonAdminDataReader.java
-D:\Automation Testing\PageObjectModel\src\test\java\TestData\IM10SATestDataReader.java
-D:\Automation Testing\PageObjectModel\src\test\java\TestData\ReadExcelFile.java
-D:\Automation Testing\PageObjectModel\src\test\java\TestData\TestDataReader.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\ExcelResults\ExcelReportGenerator.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\pages\ConfigFileRead.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\pages\EmailSender.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\pages\GFG.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\pages\IM10ContentAdmin.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\pages\IM10EndorseManagerAdmin.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\pages\IM10LoginPage.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\pages\IM10MarketingCampaigns.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\pages\IM10QualityAssurance.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\pages\IM10SalesAdmin.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\pages\IM10SuperAdmin.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\pages\LighthouseUtility.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\pages\LoginUtility.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\pages\LogoutUtil.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\pages\SalesPersonAdmin.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\pages\SendEmail.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\pages\WaitUtility.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\test_cases\IM10E2ETest.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\test_cases\TestSuite.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\TestData\ExcelRead.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\TestData\ExcelReader.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\TestData\IM10CATestDataReader.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\TestData\IM10EMATestDataReader.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\TestData\IM10MarketingCampaignsDataReader.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\TestData\IM10SalesPersonAdminDataReader.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\TestData\IM10SATestDataReader.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\TestData\ReadExcelFile.java
+D:\IM10_Mobile_Automation\IM10_Project\IM10_E2E_Project\src\test\java\TestData\TestDataReader.java
