@@ -19,6 +19,7 @@ test_cases\IM10E2ETest$15.class
 pages\EmailSender$1.class
 test_cases\IM10E2ETest$7.class
 pages\SendEmail.class
+tests\TestRunner.class
 test_cases\IM10E2ETest$9.class
 test_cases\IM10E2ETest$23.class
 test_cases\IM10E2ETest$27.class
