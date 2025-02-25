@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-25T13:13:29 IST" name="Surefire suite" finished-at="2025-02-25T13:26:26 IST" duration-ms="776866">
+    <groups>
+    </groups>
+    <test started-at="2025-02-25T13:13:29 IST" name="Surefire test" finished-at="2025-02-25T13:26:26 IST" duration-ms="776866">
+      <class name="test_cases.IM10E2ETest">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:13:30 IST" name="testSetup" finished-at="2025-02-25T13:13:33 IST" duration-ms="3573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testSALogin()[pri:1, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:13:33 IST" name="testSALogin" finished-at="2025-02-25T13:13:35 IST" duration-ms="2355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSALogin -->
+        <test-method signature="testSaAddUser()[pri:2, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:13:35 IST" name="testSaAddUser" finished-at="2025-02-25T13:15:56 IST" duration-ms="140471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaAddUser -->
+        <test-method signature="testSaLogOut()[pri:3, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:15:56 IST" name="testSaLogOut" finished-at="2025-02-25T13:16:05 IST" duration-ms="9299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaLogOut -->
+        <test-method signature="testIM10SALogin()[pri:4, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:16:05 IST" name="testIM10SALogin" finished-at="2025-02-25T13:16:07 IST" duration-ms="2226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIM10SALogin -->
+        <test-method signature="testIM10SAAddPlayer()[pri:5, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:16:07 IST" name="testIM10SAAddPlayer" finished-at="2025-02-25T13:16:44 IST" duration-ms="36229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIM10SAAddPlayer -->
+        <test-method signature="testIM10SALogOut()[pri:6, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:16:44 IST" name="testIM10SALogOut" finished-at="2025-02-25T13:16:48 IST" duration-ms="4279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIM10SALogOut -->
+        <test-method signature="testSaUserPlayer()[pri:7, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:16:48 IST" name="testSaUserPlayer" finished-at="2025-02-25T13:19:26 IST" duration-ms="157833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaUserPlayer -->
+        <test-method signature="testSaUPLogOut()[pri:8, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:19:26 IST" name="testSaUPLogOut" finished-at="2025-02-25T13:19:35 IST" duration-ms="9298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaUPLogOut -->
+        <test-method signature="testCALogin()[pri:9, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:19:35 IST" name="testCALogin" finished-at="2025-02-25T13:19:37 IST" duration-ms="2274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCALogin -->
+        <test-method signature="testCaAddContent()[pri:10, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:19:37 IST" name="testCaAddContent" finished-at="2025-02-25T13:20:25 IST" duration-ms="47433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaAddContent -->
+        <test-method signature="testCaLogOutAfterAdd()[pri:11, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:20:25 IST" name="testCaLogOutAfterAdd" finished-at="2025-02-25T13:20:29 IST" duration-ms="4309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaLogOutAfterAdd -->
+        <test-method signature="testQAApproveContent()[pri:12, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:20:29 IST" name="testQAApproveContent" finished-at="2025-02-25T13:20:46 IST" duration-ms="16902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQAApproveContent -->
+        <test-method signature="testQALogOutAfterApproved()[pri:13, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:20:46 IST" name="testQALogOutAfterApproved" finished-at="2025-02-25T13:20:57 IST" duration-ms="11304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQALogOutAfterApproved -->
+        <test-method signature="testMarketingCampaignsLogin()[pri:14, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:20:57 IST" name="testMarketingCampaignsLogin" finished-at="2025-02-25T13:21:00 IST" duration-ms="2256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMarketingCampaignsLogin -->
+        <test-method signature="testAddCampaign()[pri:15, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:21:00 IST" name="testAddCampaign" finished-at="2025-02-25T13:21:42 IST" duration-ms="42413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCampaign -->
+        <test-method signature="testDeleteCampaign()[pri:16, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:21:42 IST" name="testDeleteCampaign" finished-at="2025-02-25T13:21:48 IST" duration-ms="6324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCampaign -->
+        <test-method signature="testLogOutMarketingCampaigns()[pri:17, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:21:48 IST" name="testLogOutMarketingCampaigns" finished-at="2025-02-25T13:21:59 IST" duration-ms="10310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogOutMarketingCampaigns -->
+        <test-method signature="testQADisapproveContent()[pri:18, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:21:59 IST" name="testQADisapproveContent" finished-at="2025-02-25T13:22:14 IST" duration-ms="14857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQADisapproveContent -->
+        <test-method signature="testQALogOutAfterDisapproved()[pri:19, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:22:14 IST" name="testQALogOutAfterDisapproved" finished-at="2025-02-25T13:22:23 IST" duration-ms="9270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQALogOutAfterDisapproved -->
+        <test-method signature="testCaDeleteContent()[pri:20, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:22:23 IST" name="testCaDeleteContent" finished-at="2025-02-25T13:22:41 IST" duration-ms="17834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaDeleteContent -->
+        <test-method signature="testCaLogOut()[pri:21, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:22:41 IST" name="testCaLogOut" finished-at="2025-02-25T13:22:45 IST" duration-ms="4244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaLogOut -->
+        <test-method signature="testSPALogin()[pri:22, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:22:45 IST" name="testSPALogin" finished-at="2025-02-25T13:22:47 IST" duration-ms="2254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSPALogin -->
+        <test-method signature="testAddListing()[pri:23, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:22:47 IST" name="testAddListing" finished-at="2025-02-25T13:23:50 IST" duration-ms="63104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddListing -->
+        <test-method signature="testSPALogOut()[pri:24, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:23:50 IST" name="testSPALogOut" finished-at="2025-02-25T13:23:54 IST" duration-ms="4258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSPALogOut -->
+        <test-method signature="testEMALogin()[pri:25, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:23:54 IST" name="testEMALogin" finished-at="2025-02-25T13:23:57 IST" duration-ms="2306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMALogin -->
+        <test-method signature="testEMAAddPlayerEndorse()[pri:26, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:23:57 IST" name="testEMAAddPlayerEndorse" finished-at="2025-02-25T13:24:19 IST" duration-ms="22639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMAAddPlayerEndorse -->
+        <test-method signature="testEMADeletePlayerEndorsement()[pri:27, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:24:19 IST" name="testEMADeletePlayerEndorsement" finished-at="2025-02-25T13:24:26 IST" duration-ms="6347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMADeletePlayerEndorsement -->
+        <test-method signature="testEMALogOut()[pri:28, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:24:26 IST" name="testEMALogOut" finished-at="2025-02-25T13:24:30 IST" duration-ms="4259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMALogOut -->
+        <test-method signature="testSPADeleteListingList()[pri:29, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:24:30 IST" name="testSPADeleteListingList" finished-at="2025-02-25T13:24:48 IST" duration-ms="17826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSPADeleteListingList -->
+        <test-method signature="testSPALogOutAfterDelete()[pri:30, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:24:48 IST" name="testSPALogOutAfterDelete" finished-at="2025-02-25T13:24:52 IST" duration-ms="4323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSPALogOutAfterDelete -->
+        <test-method signature="testIM10SADeletePlayer()[pri:31, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:24:52 IST" name="testIM10SADeletePlayer" finished-at="2025-02-25T13:25:03 IST" duration-ms="10724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIM10SADeletePlayer -->
+        <test-method signature="testIM10SADeleteLogOut()[pri:32, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:25:03 IST" name="testIM10SADeleteLogOut" finished-at="2025-02-25T13:25:07 IST" duration-ms="4234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIM10SADeleteLogOut -->
+        <test-method signature="testSaDeleteMultipleUsers()[pri:33, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:25:07 IST" name="testSaDeleteMultipleUsers" finished-at="2025-02-25T13:26:19 IST" duration-ms="71478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSaDeleteMultipleUsers -->
+        <test-method is-config="true" signature="testCleanup()[pri:0, instance:test_cases.IM10E2ETest@4386f16]" started-at="2025-02-25T13:26:19 IST" name="testCleanup" finished-at="2025-02-25T13:26:26 IST" duration-ms="7737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCleanup -->
+      </class> <!-- test_cases.IM10E2ETest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
