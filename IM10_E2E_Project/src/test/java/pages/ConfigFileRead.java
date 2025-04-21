@@ -5,8 +5,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
-public class ConfigFileRead {
-
+public class ConfigFileRead
+{
     private Properties properties;
 
     // Path to the configuration properties file

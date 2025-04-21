@@ -100,7 +100,7 @@ public class IM10E2ETest {
      *
      * */
 
-    // BeforeClass setup method
+    // BeforeClass setup method7
     @BeforeClass
     public void testSetup() throws IOException
     {
@@ -210,7 +210,7 @@ public class IM10E2ETest {
 
     // Test case for Super Admin login functionality
     @Test(priority = 1)
-    public void testSALogin() throws InterruptedException, IOException {
+    public void testSALogin() throws InterruptedException {
         //Perform login as SUPER_ADMIN
         LoginUtility.login(driver, "SUPER_ADMIN");
 
@@ -271,7 +271,6 @@ public class IM10E2ETest {
     @Test(priority = 2)
     public void testSaAddUser() throws InterruptedException
     {
-
         // Initialization of variables to track test results
         String saveActionMsg = "";
         String expSaveActionMsg;
@@ -329,19 +328,18 @@ public class IM10E2ETest {
             expSaveActionMsg = configReader.getExpectedAddSA();
 
             // Asserting the result of adding user and storing test result
-            try {
+            try
+            {
                 Assert.assertEquals(saveActionMsg, expSaveActionMsg);
                 flagResultOfTestAddUser = true;
                 resultOfTestAddUser.add(flagResultOfTestAddUser.toString());
-
-
-            } catch (Throwable e) {
+            }
+            catch (Throwable e)
+            {
                 // Catching and handling assertion errors
                 System.out.println(e);
                 resultOfTestAddUser.add(flagResultOfTestAddUser.toString());
-
             }
-
             sleep(5000);
             IM10SuperAdmin.clickOk(driver);
         }
@@ -1839,7 +1837,7 @@ public class IM10E2ETest {
                 "sandhya@meshbaco.com",
                 "sandhya@meshbaco.com",
                 "IM10 UI Test Automation Report",
-                "Dear Dipali,\n\n" +
+                "Dear,\n\n" +
                         "Summary_Report_IM10_UI_Test_Automation:\n\n" +
                         sendSummaryReport.readExcel(summaryReportdirectory + "\\" + summaryReportFileName) + "\n" +
                         "Please find E2E report of IM 10 UI Test Automation.\n" +
